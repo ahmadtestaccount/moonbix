@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_HASH: str
 
     USE_REF: bool = True
-    REF_ID: str = 'ref_7270017507'
+    REF_ID: str = 'ref_295784290'
 
     ENABLE_AUTO_TASKS: bool = True
     ENABLE_AUTO_PLAY_GAMES: bool = True
@@ -19,7 +19,7 @@ class Settings(BaseSettings):
 
     BLACK_LIST_TASKS: list[str] = []
 
-    USE_PROXY_FROM_FILE: bool = True
+    USE_PROXY_FROM_FILE: bool = False
 
 
 settings = Settings()
